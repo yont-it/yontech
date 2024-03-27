@@ -64,7 +64,7 @@ main .boxes {
     /* margin-top: -300px; */
     gap: 40px;
     flex-direction: row;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 main .boxes .box {
