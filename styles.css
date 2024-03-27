@@ -35,6 +35,7 @@ main .title {
     width: 100%;
     max-width: 1440px;
     display: flex;
+    min-height: 550px;
 }
 
 main .title h1 {
@@ -125,6 +126,7 @@ main .boxes .box h3 {
 
     main .title {
         margin-bottom: 250px;
+        min-height: auto;
     }
 }
 
