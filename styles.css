@@ -65,6 +65,7 @@ main .boxes {
     gap: 40px;
     flex-direction: row;
     grid-template-columns: repeat(3, 1fr);
+    /* margin-bottom: -120px; */
 }
 
 main .boxes .box {
@@ -116,6 +117,22 @@ main .boxes .box h3 {
     line-height: 180%;
 }
 
+footer {
+    display: flex;
+    background-color: white;
+    width: calc(100% - 40px);
+    align-items: center;
+    gap: 12px;
+    color: #1F1F2B;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px;
+    justify-content: center;
+    margin-top: -120px;
+}
+
 @media only screen and (max-width: 1280px) {
     main .boxes {
         grid-template-columns: repeat(2, 1fr);
@@ -160,5 +177,13 @@ main .boxes .box h3 {
         padding-left: 20px;
         padding-right: 20px;
         width: calc(100% - 40px);
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 40px 40px 40px;
+        width: calc(100% - 80px);
+        gap: 8px;
     }
 }
